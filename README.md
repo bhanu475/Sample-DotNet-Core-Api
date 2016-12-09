@@ -1,4 +1,7 @@
-# Welcome to ASP.NET Core
+# 
+
+# Welcome to ASP.NET Core Sample by Bhanu
+this is Sample DotNet Core Api with mysql connection
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 

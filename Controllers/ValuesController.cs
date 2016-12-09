@@ -23,7 +23,7 @@ namespace bhanuapi.Controllers
         {
             MySqlConnection connection = new MySqlConnection
             {
-                ConnectionString = "server=localhost;user id=root;password=root;persistsecurityinfo=True;port=3306;database=sakila;SSL Mode=None"
+                ConnectionString = "server=localhost;user id=root;password=;persistsecurityinfo=True;port=3306;database=sakila;SSL Mode=None"
             };
             connection.Open();
             MySqlCommand command = new MySqlCommand("SELECT * FROM sakila.category;", connection);
@@ -40,7 +40,7 @@ namespace bhanuapi.Controllers
  
             connection.Close();
  
-            System.Console.ReadKey();
+            
             return "value";
         }
 
@@ -56,7 +56,7 @@ namespace bhanuapi.Controllers
         {
             MySqlConnection connection = new MySqlConnection
             {
-                ConnectionString = "server=localhost;user id=root;password=root;persistsecurityinfo=True;port=3306;database=sakila"
+                ConnectionString = "server=localhost;user id=root;password=;persistsecurityinfo=True;port=3306;database=sakila"
             };
             connection.Open();
             MySqlCommand command = new MySqlCommand("SELECT * FROM sakila.category;", connection);
@@ -73,7 +73,7 @@ namespace bhanuapi.Controllers
  
             connection.Close();
  
-            System.Console.ReadKey(); 
+             
         }
 
         // DELETE api/values/5
